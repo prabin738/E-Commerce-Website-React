@@ -1,6 +1,6 @@
-import Item from "../Components/Items/Item";
+import Item from "../Items/Item";
 import "./NewCollections.css";
-import new_collections from "../assets/newcollections";
+import new_collections from "../../assets/newcollections";
 
 const NewCollections = () => {
   return (
