@@ -1,12 +1,17 @@
 .item {
   width: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 .item img {
   width: 200px;
-  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
 .item p {
-  margin: 6px 0px;
+  margin: 6px 10px;
 }
 .item-prices {
   display: flex;
@@ -16,6 +21,7 @@
   color: #374151;
   font-size: 16px;
   font-weight: 600;
+  padding-left: 10px;
 }
 .item-price-old {
   color: #8c8c8c;
